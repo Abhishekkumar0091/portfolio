@@ -1,0 +1,77 @@
+body {
+  margin: 0;
+  background-color: black;
+  color: white;
+  font-family: Arial;
+}
+
+/* Navbar */
+.navbar {
+  padding: 20px 40px;
+}
+
+.logo {
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.menu {
+  float: right;
+  list-style: none;
+}
+
+.menu li {
+  display: inline;
+  margin-left: 20px;
+  font-size: 15px;
+}
+
+/* Main Section */
+.main {
+  padding: 60px 40px;
+}
+
+.left {
+  width: 50%;
+  float: left;
+}
+
+.left h1 {
+  font-size: 40px;
+}
+
+.left span {
+  color: red;
+}
+
+.left button {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 10px 25px;
+  margin-top: 20px;
+}
+
+/* Image */
+.right {
+  width: 45%;
+  float: right;
+  text-align: center;
+}
+
+.right img {
+  width: 320px;
+  background-color: black;
+  padding: 10px;
+}
+.change:hover{
+    background-color: rgb(189, 20, 20);
+    color: black;
+     
+}
+.menu li:hover{
+  color: red;
+}
+.logo:hover {
+    color: brown;
+}
